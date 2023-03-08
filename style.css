@@ -1,0 +1,473 @@
+body {
+    margin: 5px 0px 0px 0px;
+    padding: 5px 5px 0px 5px;
+    color: white;
+}
+
+@keyframes animacionfondo {
+    from {
+        transform: rotate(0deg) scale(2.5);
+    }
+    to {
+        transform: rotate(360deg) scale(2.5);
+    }
+}
+.fondo {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    animation: animacionfondo 60s linear infinite both;
+    filter: blur(10px);
+    z-index: -1;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+@media screen and (max-width:1920px) {
+    
+    .contenedor-1 .primero {
+        flex-basis: 300px;
+    }
+    .contenedor-1 .segundo {
+        flex-basis: 200px;
+    }
+    .contenedor-1 .tercero {
+        flex-basis: 625px;
+    }
+
+}
+
+@media screen and (max-width:1620px) {
+
+    .contenedor-1 .primero {
+        flex-basis: 350px;
+    }
+    .contenedor-1 .segundo {
+        flex-basis: 200px;
+    }
+    .contenedor-1 .tercero {
+        flex-basis: 550px;
+    }
+
+}
+
+@media screen and (max-width:1380px) {
+
+    .contenedor-1 .primero {
+        flex-basis: 400px;
+    }
+    .contenedor-1 .segundo {
+        flex-basis: 200px;
+    }
+    .contenedor-1 .tercero {
+        flex-basis: 475px;
+    }
+
+}
+
+@media screen and (max-width:1020px) {
+    
+    .contenedor-1 .primero {
+        flex-basis: 350px;
+    }
+    .contenedor-1 .segundo {
+        flex-basis: 100px;
+    }
+    .contenedor-1 .tercero {
+        flex-basis: 350px;
+    }
+
+}
+
+/* ACÁ EMPIEZA SECTION1*/
+.precen {
+    margin: 20px 400px 20px 400px;
+    padding: auto;
+    border: blue 5px solid;
+    border-radius: 30px;
+    
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.nombre {
+    font-size: 50px;
+}
+.precen .p1 {
+    font-size: 30px;
+}
+
+.contenedor-1 {
+    width: 100%;
+    height: 475px;
+    padding: 20px 20px 20px 20px;
+    font-size: 40px;
+    
+    display: flex;
+    gap: 20px;
+}
+
+.contenedor-1 .primero{
+    border: 5px red solid;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contenedor-1 .segundo {
+    border: 5px red solid;
+    padding: auto;
+    border-radius: 50%;
+    text-align: center;
+}
+.contenedor-1 .imgmia {
+    margin: auto;
+    border-radius: 50%;
+    width: 180px;
+}
+
+.contenedor-1 .tercero {
+    border: 5px red solid;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cv{
+    font-size: 40px;
+    margin: 5px 550px 5px 550px;
+    padding: 5px 5px 5px 5px;
+    border: rgb(100, 3, 129) 5px solid;
+    border-radius: 30px;
+    
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+/*ACÁ EMPIEZA SECTION2*/
+.contenedor-2 {
+    width: 100%;
+    height: 400px;
+    padding: 20px 20px 20px 20px;
+}
+
+.contenedor-2 .primero{
+    width: 49%;
+    height: 360px;
+    float: left;
+    border: 5px blue solid;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+.sobremi {
+    font-size: 40px;
+}
+.contenedor-2 .p1 {
+    font-size: 23px;
+}
+
+.contenedor-2 .segundo {
+    width: 49%;
+    height: 360px;
+    float: right;
+    border: 5px blue solid;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+.objetivo {
+    font-size: 40px;
+}
+.contenedor-2 .p2 {
+font-size: 20px;
+}
+
+/*ACÁ EMPIEZA SECTION3 - FORMACIÓN ACADÉMICA*/
+.fa {
+    margin: 20px 400px 20px 400px;
+    padding: auto;
+    border: 5px red solid;
+    border-radius: 50px;
+    text-align: center;
+}
+.foraca {
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.contenedor-3 {
+    width: 100%;
+    height: 400px;
+    padding: 20px 20px 20px 20px;
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.contenedor-3 .primero {
+    width: 33.33%;
+    border: 5px red solid;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+}
+.contenedor-3 .primero .p1 {
+    font-size: 25px;
+}
+
+.contenedor-3 .segundo {
+    width: 33.33%;
+    border: 5px red solid;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+}
+.contenedor-3 .segundo .p2 {
+    font-size: 25px;
+}
+
+.contenedor-3 .tercero {
+    width: 33.33%;
+    border: 5px red solid;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+}
+.contenedor-3 .tercero .p3{
+    font-size: 20px;
+}
+
+/*ACÁ EMPIEZA SECTION3 - EXPERIENCIA LABORAL*/
+.el {
+    margin: 20px 400px 20px 400px;
+    padding: auto;
+    border: 5px red solid;
+    border-radius: 50px;
+    text-align: center;
+}
+.exla {
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.contenedor-4 {
+    width: 100%;
+    height: 250px;
+    padding: 20px 20px 20px 20px;
+
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.contenedor-4 .primero {
+    width: 33.33%;
+    border: 5px red solid;
+    border-radius: 10px;
+    padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+}
+.contenedor-4 .primero .pasto {
+    width: 10%;
+    margin: 5px 5px 5px 50px;
+    border: 5px white solid;
+    padding: 7px 30px 7px 7px;
+    border-radius: 100% ;
+}
+.contenedor-4 .primero .p4 {
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.contenedor-4 .segundo {
+    width: 33.33%;
+    border: 5px red solid;
+    border-radius: 10px;
+    padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+}
+.contenedor-4 .segundo .limpieza {
+    width: 10%;
+    margin: 5px 5px 5px 50px;
+    border: 5px white solid;
+    padding: 7px 30px 7px 7px;
+    border-radius: 100% ;
+}
+.contenedor-4 .segundo .p5 {
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.contenedor-4 .tercero {
+    width: 33.33%;
+    border: 5px red solid;
+    border-radius: 10px;
+    padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+}
+.contenedor-4 .tercero .pintura {
+    width: 10%;
+    margin: 5px 5px 5px 50px;
+    border: 5px white solid;
+    padding: 7px 30px 7px 7px;
+    border-radius: 100% ;
+}
+.contenedor-4 .tercero .p6 {
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/*ACÁ EMPIEZA SECTION4*/
+.contenedor-5 {
+    width: 100%;
+    height: 340px;
+    margin: 20px 1px 10px 1px;
+    padding: 20px 20px 20px 20px;
+}
+
+.contenedor-5 .primero {
+    width: 49%;
+    height: 300px;
+    float: left;
+    border: 5px blue solid;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+.massobre {
+    font-size: 35px;
+    margin: 5px 1px 10px 1px;
+}
+.contenedor-5 .primero .p1 {
+    font-size: 21px;
+}
+
+.contenedor-5 .segundo {
+    width: 49%;
+    height: 300px;
+    float: right;
+    border: 5px blue solid;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+.fju {
+    font-size: 33px;
+    margin: 5px 1px 10px 1px;
+}
+.contenedor-5 .segundo .p2 {
+    font-size: 23px;
+}
+
+/*ACÁ EMPIEZA FOOTER*/
+.footer {
+    width: 100%;
+    height: 200px;
+    padding: 5px 5px 5px 5px;
+    backdrop-filter: blur(500px);
+    text-align:center;
+    position: relative;
+    z-index: 2;
+}
+
+.ul {
+    width:100%;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.email {
+    margin: 0 2em;
+    border: 5px red solid;
+}
+.correo {
+    width: 40px;
+}
+
+.whatsapp {
+    margin: 0 2em;
+    border: 5px rgb(70, 185, 3) solid;
+}
+.wasap {
+    width: 40px;
+}
+
+.instagram {
+    margin: 0 2em;
+    border: 5px rgb(216, 5, 170) solid;
+}
+.insta {
+    width: 40px;
+}
+
+.facebook {
+    margin: 0 2em;
+    border: 5px blue solid;
+}
+.face {
+    width: 40px;
+}
+
+.linkedin {
+    margin:  0 2em;
+    border: 5px rgb(77, 77, 245) solid;
+}
+.link {
+    width: 40px;
+}
+
+.arrowup {
+    margin: 0 2em;
+    border: 5px rgb(85, 85, 85) solid;
+}
+.up {
+    width: 40px;
+}
+
+.footer .h3 {
+    font-size: 20px;
+    margin: 30px 400px 0px 400px;
+    padding: 5px 5px 5px 5px;
+    border: rgb(0, 0, 0) 1px solid;
+    border-radius: 30px;
+    
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+
+
+/*Desde ya muchas gracias... Esta simple y humilde página web fue creada para el curso de "Introducción - Primeros Pasos en el Front-End", en el cual me pude capacitar muchísimo y descubrir nuevos mundos dentro del mundo de la programación. Espero seguir capacitándome cada vez más, una vez más... Gracias.*/
